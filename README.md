@@ -36,7 +36,7 @@ no prontuário de maneira correta e segura.
 ## 5. Resultados
 
 Os resultados dos testes serão apresentados com os
-respectivos status PASS ou FAIL e evidências.
+respectivos status valido, invalido, pendente e evidências.
 
 ## 6. Evidências
 
