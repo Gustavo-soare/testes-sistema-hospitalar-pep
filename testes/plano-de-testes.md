@@ -22,7 +22,7 @@ preenchimento de informações básicas do prontuário.
 - Faturamento;
 - Diagnósticos.
 
-## 4. Ambiente de testes
+## Ambiente de testes
 
 Os testes serão realizados na versão 8.5.0 do OpenEMR, utilizando o ambiente de demonstração disponibilizado publicamente na internet.
 
