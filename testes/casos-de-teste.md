@@ -33,11 +33,12 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   3. Informar uma senha incorreta.
   4. Tentar acessar o sistema.
 - **Dados de entrada:** Usuário válido e senha incorreta.
-- **Resultado esperado:** O sistema deve negar o acesso e apresentar uma mensagem de erro.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
-
+- **Resultado esperado:** O sistema deve impedir o acesso e apresentar uma mensagem apropriada.
+- **Resultado obtido:** O sistema apresentou uma mensagem informando que o usuário ou a senha estavam incorretos, impedindo a autenticação.
+- **Status:** Valido.
+- **Evidência:** CT02-login-invalido.png
+- **Observação:** Durante a avaliação, também foi realizada uma tentativa de inserir uma entrada semelhante a SQL Injection no campo de usuário. O sistema não permitiu o acesso. Essa observação não comprova a ausência de vulnerabilidades SQL Injection, pois seria necessária uma avaliação de segurança específica e autorizada.
+  
 ## CT03 — Pesquisa de paciente existente
 
 - **Funcionalidade:** Pesquisa de pacientes.
