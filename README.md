@@ -1,4 +1,4 @@
-# Testes de Software — Sistema Hospitalar PEP
+# Software — Sistema Hospitalar PEP
 
 **Aluno:** Gustavo Henrique Soares
 
