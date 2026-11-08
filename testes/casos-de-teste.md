@@ -18,10 +18,10 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   3. Informar uma senha válida.
   4. Clicar no botão de acesso.
 - **Dados de entrada:** Credenciais válidas de teste.
-- **Resultado esperado:** O sistema deve autenticar o usuário e permitir o acesso.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+- **Resultado esperado:** Acessar o sistema.
+- **Resultado obtido:** Sistema abriu a tela principal.
+- **Status:** VALIDO.
+- **Evidência:** CT01-login-valido.png.
 
 ## CT02 — Login com senha incorreta
 
