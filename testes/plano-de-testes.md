@@ -22,11 +22,23 @@ preenchimento de informações básicas do prontuário.
 - Faturamento;
 - Diagnósticos.
 
-## Ambiente utilizado
+## 4. Ambiente de testes
 
-Sistema operacional: Windows 11
-Navegador: Google Chrome
-Tipo de aplicação: Sistema hospitalar de demonstração.
+Os testes serão realizados na versão 8.5.0 do OpenEMR, utilizando o ambiente de demonstração disponibilizado publicamente na internet.
+
+As configurações utilizadas durante a execução dos testes são:
+
+- **Aplicação:** OpenEMR.
+- **Versão:** 8.5.0.
+- **Ambiente:** Demonstração online.
+- **Navegador:** Opera.
+- **Sistema operacional:** Windows.
+- **Perfil de acesso:** Physician (médico).
+- **Dados utilizados:** Pacientes fictícios.
+
+Os testes serão realizados por meio das funcionalidades normalmente disponíveis na interface do sistema, sem alterações no código-fonte ou acesso direto ao banco de dados.
+
+Por se tratar de um ambiente público de demonstração, serão utilizados exclusivamente dados fictícios, considerando também a possibilidade de alterações ou reinicializações dos registros existentes.
 
 ## Tipos de teste
 
