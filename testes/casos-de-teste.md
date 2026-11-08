@@ -19,7 +19,7 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   4. Clicar no botão de acesso.
 - **Dados de entrada:** Credenciais válidas de teste.
 - **Resultado esperado:** Acessar o sistema.
-- **Resultado obtido:** Sistema abriu a tela principal.
+- **Resultado obtido:** O sistema autenticou o usuário e apresentou a tela principal, disponibilizando o calendário e as funcionalidades do OpenEMR.
 - **Status:** VALIDO.
 - **Evidência:** CT01-login-valido.png.
 
