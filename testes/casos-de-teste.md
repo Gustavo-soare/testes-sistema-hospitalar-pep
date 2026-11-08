@@ -47,11 +47,12 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   2. Localizar o campo de pesquisa.
   3. Informar um identificador de paciente existente.
   4. Executar a pesquisa.
-- **Dados de entrada:** Identificador de paciente fictício cadastrado.
+- **Dados de entrada:** Nome de um paciente cadastrado.
 - **Resultado esperado:** O sistema deve localizar e apresentar o paciente correspondente.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+- **Resultado obtido:** O sistema apresentou uma lista contendo 14 pacientes cadastrados, com informações de identificação e histórico de consultas.
+- **Status:** Valido.
+- **Evidência:** CT03-pesquisa-paciente.png
+- **Observação:** Ao acessar a funcionalidade de pesquisa sem informar filtros, o sistema apresentou a listagem geral dos pacientes cadastrados. Após informar o nome de um paciente, a aplicação filtrou os resultados e apresentou somente o registro correspondente à pesquisa realizada.
 
 ## CT04 — Pesquisa de paciente inexistente
 
