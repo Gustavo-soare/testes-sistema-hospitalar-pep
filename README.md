@@ -94,14 +94,14 @@ Software-Sistema-Hospitalar-PEP/
 │
 ├── documentacao/
 │   ├── escopo.md
-│   ├── requisitos-funcionais.md
-│   ├── criterios-aceitacao.md
-│   └── plano-de-testes.md
+│   ├── requisitos.md
+│   └── criterios-aceitacao.md
 │
 ├── testes/
 │   ├── checklist.md
 │   ├── casos-de-teste.md
-│   └── rastreabilidade.md
+│   ├── rastreabilidade.md
+│   └── plano-de-testes.md
 │
 └── evidencias/
     ├── CT01/
