@@ -136,12 +136,14 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   1. Acessar o prontuário.
   2. Registrar e salvar informações fictícias.
   3. Atualizar a página.
-  4. Consultar novamente as informações registradas.
+  4. Realizar novamente a autenticação no sistema.
+  5. Consultar o prontuário e verificar as informações registradas.
 - **Dados de entrada:** Informações fictícias previamente salvas.
 - **Resultado esperado:** As informações devem permanecer registradas e disponíveis após a atualização da página.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+- **Resultado obtido:** As informações cadastradas permaneceram salvas após a atualização da página. Entretanto, foi observado que o sistema encerrou a sessão do usuário, exigindo uma nova autenticação para continuar utilizando suas funcionalidades.
+- **Status:** Valido.
+- **Evidência:** CT09-persistencia-dados.png
+- **Observação:** Embora a persistência das informações tenha funcionado corretamente, o encerramento da sessão após a atualização da página representa um comportamento inesperado durante a utilização do sistema, que merece investigação complementar.
 
 ## CT10 — Agendamento de consulta pelo calendário
 
