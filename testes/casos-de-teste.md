@@ -115,17 +115,18 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
 ## CT08 — Salvamento de informações válidas
 
 - **Funcionalidade:** Salvamento do prontuário.
-- **Pré-condições:** Usuário autenticado, prontuário acessível para edição e formulário preenchido corretamente.
+- **Objetivo:** Verificar os dados informados no cadastro do paciente são mantidos corretamente e se o sistema realiza a validação adequada das informações inseridas.
+- **Pré-condições:** Usuário autenticado no OpenEMR e acesso à funcionalidade de cadastro ou edição de pacientes.
 - **Passos para execução:**
   1. Acessar o prontuário.
-  2. Preencher os campos obrigatórios com dados válidos.
-  3. Clicar na opção de salvar.
-  4. Verificar a mensagem apresentada pelo sistema.
-- **Dados de entrada:** Informações fictícias válidas.
-- **Resultado esperado:** O sistema deve salvar as informações e apresentar uma confirmação da operação.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+  2. Informar ou alterar um dado em um campo de texto.
+  3. Observar o comportamento do sistema durante o preenchimento.
+  4. Verificar se os dados são mantidos corretamente.
+  5. Analisar possíveis alterações inesperadas nas informações cadastrais.
+- **Resultado esperado:** O sistema deve preservar os dados informados corretamente e apresentar uma mensagem de validação ou aviso quando uma informação incompatível com o campo for inserida, evitando alterações indevidas no cadastro.
+- **Resultado obtido:** Durante o teste, foi observado que, ao inserir uma informação em um campo de texto relacionado ao cadastro, o sistema realizou uma alteração inesperada, atribuindo a data atual de 2026 a um campo relacionado à data de nascimento. Não foi apresentada uma mensagem de erro ou confirmação da alteração.
+- **Status:** Erro.
+- **Evidência:** CT08-validacao-dados.png
 
 ## CT09 — Inserção de informação em formato inválido
 
