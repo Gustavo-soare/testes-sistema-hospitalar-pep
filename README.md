@@ -88,7 +88,7 @@ As evidências permitem visualizar os procedimentos realizados, as mensagens apr
 A organização dos arquivos do projeto está distribuída da seguinte maneira:
 
 ```text
-Software-Sistema-Hospitalar-PEP/
+testes-sistema-hospitalar-pep/
 │
 ├── README.md
 │
