@@ -104,8 +104,8 @@ Software-Sistema-Hospitalar-PEP/
 │   └── plano-de-testes.md
 │
 └── evidencias/
-    ├── CT01/
-    ├── CT02/
+    ├── CT01-login-valido.png
+    ├── CT01-login-valido.png
     ├── CT03/
     ├── CT04/
     ├── CT05/
