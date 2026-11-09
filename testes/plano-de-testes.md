@@ -2,25 +2,28 @@
 
 ## Objetivo
 
-Verificar o funcionamento do fluxo de consulta e
-preenchimento de informações básicas do prontuário.
+Verificar o funcionamento das principais funcionalidades do sistema OpenEMR relacionadas à autenticação, pesquisa e consulta de pacientes, preenchimento e atualização de informações cadastrais, validação dos dados, persistência das informações e agendamento de consultas. A avaliação busca identificar se os comportamentos apresentados pelo sistema correspondem aos requisitos funcionais e aos critérios de aceitação estabelecidos para o projeto.
 
 ## Funcionalidades testadas
 
-- Autenticação;
-- Pesquisa de pacientes;
-- Consulta ao prontuário;
-- Preenchimento de informações;
-- Validação de campos;
-- Salvamento de informações.
+- Autenticação de usuários;
+- Pesquisa e localização de pacientes;
+- Consulta ao prontuário eletrônico;
+- Visualização de informações cadastrais e clínicas;
+- Cadastro e edição de informações dos pacientes;
+- Validação de campos obrigatórios;
+- Validação dos formatos das informações inseridas;
+- Salvamento e persistência dos dados;
+- Agendamento de consultas por meio do calendário.
 
 ## Funcionalidades não testadas
 
-- Prescrições;
-- Exames;
-- Agendamentos;
-- Faturamento;
-- Diagnósticos.
+- Prescrição de medicamentos;
+- Solicitação e interpretação de exames;
+- Registro e elaboração de diagnósticos médicos;
+- Faturamento e cobrança de serviços hospitalares;
+- Gestão financeira da instituição;
+- Integração com sistemas externos.
 
 ## Ambiente de testes
 
@@ -42,13 +45,12 @@ Por se tratar de um ambiente público de demonstração, serão utilizados exclu
 
 ## Tipos de teste
 
-- Testes funcionais;
-- Testes de validação;
-- Testes negativos;
-- Testes de persistência dos dados;
-- Testes de fluxo alternativo.
+- **Testes funcionais:** verificam o funcionamento das funcionalidades disponibilizadas pelo sistema.
+- **Testes de validação:** avaliam o comportamento dos campos e a consistência das informações inseridas.
+- **Testes negativos:** verificam a resposta do sistema diante de entradas inválidas ou situações não permitidas.
+- **Testes de persistência dos dados:** verificam se as informações permanecem registradas após o salvamento e a atualização da página.
+- **Testes de fluxo alternativo:** avaliam comportamentos diferentes do fluxo principal de utilização, como pesquisas sem filtros e tentativas de preenchimento incompleto.
 
 ## Critérios de conclusão
 
-Todos os casos planejados deverão ser executados
-e documentados com seus respectivos resultados.
+Os casos de teste planejados deverão ser executados e documentados com seus respectivos procedimentos, resultados obtidos, situações identificadas e evidências. A avaliação será realizada por meio da comparação entre os resultados esperados e os comportamentos efetivamente apresentados pelo sistema, permitindo identificar funcionalidades aprovadas, falhas observadas e limitações que impeçam a execução de determinados testes.
