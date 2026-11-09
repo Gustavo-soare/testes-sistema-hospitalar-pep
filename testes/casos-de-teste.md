@@ -63,11 +63,10 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   1. Acessar a área de pacientes.
   2. Informar um identificador inexistente.
   3. Executar a pesquisa.
-- **Dados de entrada:** Identificador fictício não cadastrado.
-- **Resultado esperado:** O sistema deve informar que nenhum paciente foi encontrado.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+- **Resultado esperado:** O sistema deve permitir a pesquisa de pacientes por critérios disponíveis ou apresentar uma alternativa para localizar um paciente específico.
+- **Resultado obtido:** Na tela utilizada, não foi identificado um campo para informar o nome de um paciente específico. Ao acessar a pesquisa sem filtros, o sistema apresentou a lista geral de pacientes, conforme observado no CT03.
+- **Status:** BLOQUEADO, não foi possível executar a pesquisa de um paciente inexistente devido à ausência de um campo de filtro específico.
+- **Evidência:** CT03-pesquisa-paciente.png
 
 ## CT05 — Consulta ao prontuário eletrônico
 
