@@ -105,15 +105,14 @@ Software-Sistema-Hospitalar-PEP/
 │
 └── evidencias/
     ├── CT01-login-valido.png
-    ├── CT01-login-valido.png
-    ├── CT03/
-    ├── CT04/
-    ├── CT05/
-    ├── CT06/
-    ├── CT07/
-    ├── CT08/
-    ├── CT09/
-    └── CT10/
+    ├── CT02-login-invalido.png
+    ├── CT03-pesquisa-paciente.png
+    ├── CT05-consulta-prontuario.png
+    ├── CT06-edicao-cadastral.png
+    ├── CT07-campo-obrigatorio.png
+    ├── CT08-validacao-dados.png
+    ├── CT09-persistencia-dados.png
+    └── CT10-agendamento-consulta.png
 ```
 
 ## 10. Considerações finais
