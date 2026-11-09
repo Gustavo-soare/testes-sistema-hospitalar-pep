@@ -112,7 +112,7 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
 - **Status:** Valido.
 - **Evidência:** CT07-campo-obrigatorio.png
 
-## CT08 — Salvamento de informações válidas
+## CT08 — Validação e alteração dos dados cadastrais
 
 - **Funcionalidade:** Salvamento do prontuário.
 - **Objetivo:** Verificar os dados informados no cadastro do paciente são mantidos corretamente e se o sistema realiza a validação adequada das informações inseridas.
@@ -128,22 +128,7 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
 - **Status:** Erro.
 - **Evidência:** CT08-validacao-dados.png
 
-## CT09 — Inserção de informação em formato inválido
-
-- **Funcionalidade:** Validação de dados.
-- **Pré-condições:** Usuário autenticado e formulário de preenchimento disponível.
-- **Passos para execução:**
-  1. Acessar o formulário do prontuário.
-  2. Identificar um campo que possua formato definido, como data.
-  3. Informar um valor em formato inválido.
-  4. Tentar salvar as informações.
-- **Dados de entrada:** Valor incompatível com o formato esperado pelo campo.
-- **Resultado esperado:** O sistema deve rejeitar o valor inválido e apresentar uma orientação para correção.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
-
-## CT10 — Persistência das informações após atualização da página
+## CT09 — Persistência das informações após atualização da página
 
 - **Funcionalidade:** Persistência de dados.
 - **Pré-condições:** Usuário autenticado e informações fictícias previamente salvas no prontuário.
@@ -154,6 +139,24 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   4. Consultar novamente as informações registradas.
 - **Dados de entrada:** Informações fictícias previamente salvas.
 - **Resultado esperado:** As informações devem permanecer registradas e disponíveis após a atualização da página.
+- **Resultado obtido:** A preencher após execução.
+- **Status:** PENDENTE.
+- **Evidência:** A inserir.
+
+## CT10 — Agendamento de consulta pelo calendário
+
+- **Funcionalidade:** Agendamento de consultas.
+- **Pré-condições:** Usuário autenticado no OpenEMR e paciente previamente cadastrado.
+- **Passos para execução:**
+  1. Acessar o calendário do OpenEMR.
+  2. Localizar a opção para adicionar ou agendar um novo evento
+  3. Selecionar um paciente previamente cadastrado.
+  4. Informar uma data e um horário para a consulta.
+  5. Preencher os demais campos solicitados pelo sistema.
+  6. Salvar o agendamento.
+  7. Verificar se a consulta aparece no calendário.
+- **Dados de entrada:** Paciente fictício previamente cadastrado, data e horário de consulta.
+- **Resultado esperado:** O sistema deve permitir realizar o agendamento e apresentar a consulta registrada no calendário na data e no horário selecionados.
 - **Resultado obtido:** A preencher após execução.
 - **Status:** PENDENTE.
 - **Evidência:** A inserir.
