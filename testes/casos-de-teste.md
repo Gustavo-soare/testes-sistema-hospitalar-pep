@@ -157,20 +157,21 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   5. Preencher os demais campos solicitados pelo sistema.
   6. Salvar o agendamento.
   7. Verificar se a consulta aparece no calendário.
-- **Dados de entrada:** Paciente fictício previamente cadastrado, data e horário de consulta.
-- **Resultado esperado:** O sistema deve permitir realizar o agendamento e apresentar a consulta registrada no calendário na data e no horário selecionados.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+- **Dados de entrada:** Paciente fictício Gustavo, médica Donna Lee, data e horário de atendimento.
+- **Resultado esperado:** O sistema deve permitir realizar o agendamento e apresentar a consulta registrada no calendário, associada ao paciente e à profissional selecionada.
+- **Resultado obtido:** O agendamento foi realizado com sucesso, utilizando o paciente Gustavo e a médica Donna Lee. O sistema permitiu concluir a operação conforme esperado.
+- **Status:** Valido.
+- **Evidência:** CT10-agendamento-consulta.png
 
 ---
 
 ## Legenda dos resultados
 
-- **Valido:** O comportamento observado corresponde ao resultado esperado.
-- **Erro:** O comportamento observado apresenta divergência em relação ao resultado esperado.
+- **Valido:** O comportamento observado corresponde ao resultado esperado, atendendo aos critérios de aceitação estabelecidos.
+- **Erro:** O comportamento observado apresenta divergências em relação ao resultado esperado, indicando que o requisito não foi atendido.
 - **PENDENTE:** O teste ainda não foi executado.
+- **Bloqueado:** O teste não pôde ser executado devido a limitações ou impedimentos identificados durante a utilização do sistema.
 
 ## Considerações finais
 
-Os casos de teste foram elaborados considerando diferentes situações de utilização do sistema, incluindo operações válidas, entradas inválidas, validação de campos e persistência das informações. A execução permitirá avaliar se o fluxo selecionado atende aos requisitos funcionais e aos critérios de aceitação definidos para o projeto.
+Os casos de teste foram elaborados com o objetivo de avaliar diferentes funcionalidades do sistema OpenEMR, contemplando situações de autenticação, pesquisa e consulta de pacientes, edição cadastral, validação de campos obrigatórios, persistência de informações e agendamento de consultas. A execução dos testes permite verificar se as funcionalidades implementadas apresentam os comportamentos esperados e atendem aos requisitos funcionais e aos critérios de aceitação definidos para o projeto. Além disso, os resultados obtidos possibilitam identificar limitações e inconsistências no funcionamento do sistema, contribuindo para uma avaliação mais abrangente de sua qualidade e usabilidade.
