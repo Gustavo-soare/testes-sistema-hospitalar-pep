@@ -71,32 +71,30 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
 ## CT05 — Consulta ao prontuário eletrônico
 
 - **Funcionalidade:** Consulta de prontuário.
-- **Pré-condições:** Usuário autenticado e paciente fictício cadastrado com prontuário disponível.
+- **Pré-condições:** Usuário autenticado no OpenEMR e paciente previamente cadastrado.
 - **Passos para execução:**
   1. Pesquisar um paciente cadastrado.
   2. Selecionar o paciente encontrado.
   3. Acessar a opção de visualizar prontuário.
   4. Verificar as informações apresentadas.
-- **Dados de entrada:** Paciente fictício com prontuário cadastrado.
-- **Resultado esperado:** O sistema deve apresentar corretamente as informações disponíveis no prontuário.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+- **Resultado esperado:** O sistema deve permitir a abertura do prontuário e apresentar as informações correspondentes ao paciente selecionado, incluindo seus dados cadastrais e histórico clínico disponível.
+- **Resultado obtido:** A consulta foi realizada com sucesso. O sistema apresentou as informações do paciente cadastrado, incluindo nome, CPF, endereço e histórico de consultas, com os valores e registros disponíveis no prontuário.
+- **Status:** Valido.
+- **Evidência:** CT05-consulta-prontuario.png
 
 ## CT06 — Preenchimento de informações válidas
 
 - **Funcionalidade:** Preenchimento do prontuário.
 - **Pré-condições:** Usuário autenticado e prontuário acessível para edição.
 - **Passos para execução:**
-  1. Acessar o prontuário de um paciente fictício.
-  2. Selecionar a opção de inserir informações.
-  3. Preencher os campos disponíveis com dados válidos.
-  4. Verificar se os dados foram aceitos pelo sistema.
-- **Dados de entrada:** Informações fictícias em formatos aceitos pelos campos.
-- **Resultado esperado:** O sistema deve aceitar as informações válidas e permitir o prosseguimento do preenchimento.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+  1. Acessar a funcionalidade de cadastro ou edição de pacientes.
+  2. Informar o nome do paciente como Gustavo.
+  3. Preencher os dados solicitados pelo sistema.
+  4. Verificar a disponibilidade dos campos cadastrais.
+- **Resultado esperado:** O sistema deve permitir o preenchimento e a edição das informações cadastrais do paciente.
+- **Resultado obtido:** O cadastro foi realizado com sucesso. O sistema permitiu informar o nome Gustavo e preencher os dados solicitados nos campos cadastrais.
+- **Status:** Valido.
+- **Evidência:** CT06-edicao-cadastral.png
 
 ## CT07 — Tentativa de salvamento com campo obrigatório vazio
 
