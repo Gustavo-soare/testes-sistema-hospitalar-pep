@@ -105,11 +105,12 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
   2. Deixar um campo obrigatório sem preenchimento.
   3. Preencher os demais campos necessários.
   4. Tentar salvar as informações.
+  5. Observar o comportamento apresentado pelo sistema.
 - **Dados de entrada:** Formulário com pelo menos um campo obrigatório vazio.
-- **Resultado esperado:** O sistema deve impedir o salvamento e indicar qual campo precisa ser preenchido.
-- **Resultado obtido:** A preencher após execução.
-- **Status:** PENDENTE.
-- **Evidência:** A inserir.
+- **Resultado esperado:** O sistema deve impedir o salvamento do cadastro quando os campos obrigatórios não forem preenchidos, indicando quais informações precisam ser informadas.
+- **Resultado obtido:** O sistema impediu o salvamento do cadastro. O campo obrigatório não preenchido foi destacado em vermelho, indicando a necessidade de preenchimento. Não foi apresentada uma mensagem textual de erro.
+- **Status:** Valido.
+- **Evidência:** CT07-campo-obrigatorio.png
 
 ## CT08 — Salvamento de informações válidas
 
@@ -160,8 +161,8 @@ Os testes foram planejados para verificar o funcionamento das principais funcion
 
 ## Legenda dos resultados
 
-- **PASS:** O comportamento observado corresponde ao resultado esperado.
-- **FAIL:** O comportamento observado apresenta divergência em relação ao resultado esperado.
+- **Valido:** O comportamento observado corresponde ao resultado esperado.
+- **Erro:** O comportamento observado apresenta divergência em relação ao resultado esperado.
 - **PENDENTE:** O teste ainda não foi executado.
 
 ## Considerações finais
